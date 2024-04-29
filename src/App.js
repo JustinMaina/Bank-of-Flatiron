@@ -1,16 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Table from './components/Table'
-import TransactionForm from './components/TransactionForm';
-import SearchTransaction from './components/SearchTransaction';
+import Table from './components/Table';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className = "container">
-      <SearchTransaction />
-      <TransactionForm />
-      <Table />
-    </div>
+   <div className='container'>
+    <Header />
+   <Table />
+   </div>
   );
 }
 
